@@ -5,6 +5,14 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 420px){
+  .container, .row, .left, .right{
+    width: auto;
+    float: inherit;
+  }
+}
+
+
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
